@@ -1,0 +1,3 @@
+function sayHello(){
+    document.write("<h1 align: left> Hello World</h1> ");
+}

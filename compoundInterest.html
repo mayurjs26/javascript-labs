@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+
+<body>
+    <script>
+        document.write("<p>***************Calculation of Compound Interest****************</p>");
+        document.write("<hr>");
+        var p = 1000;
+        var roi = 10;
+        var noOfYears = 1;
+        var compoundInterest = (p * Math.pow(1 + ((roi) / 100), noOfYears)) - p;
+        document.write("<p>Principal Amount:" + p);
+        document.write("<p>Rate of Interest:" + roi);
+        document.write("<p>Period:"+noOfYears);    
+        document.write("<p>Compound Interest:"+compoundInterest);
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

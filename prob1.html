@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<script>
+    var d= new Date();
+    document.write("<p>"+d);
+        var time = d.getHours();
+    
+    if(d.getHours<12){
+       
+        document.write("<p>Good Morning</p>");
+    }
+    else if(time>=12||time<=17){
+        document.write("<p>Good Afternoon</p>");
+    }
+    else
+    document.write("<p>Good Night</p>");
+
+    </script>
+
+
+</body>
+</html>
